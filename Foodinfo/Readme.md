@@ -7,5 +7,5 @@ This is the second version of the program, implemented a GUI for the program usi
 <br/>
 #### Steps for using the second version
 1. Download **Foodinfo.csv** and **New_foodInfo.py** to the same local folder.
-2. ![Run the program](/Images/foodinfo2.jpg)
+2. ![Run the program](https://github.com/ChanHaoHao/SideProject/tree/main/Foodinfo/Images/foodinfo2.jpg)
 3. Type in the food you want to know and check the food information you want to know, then click enter, the information will show on another widget.
