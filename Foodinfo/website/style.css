@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #262a2f;
+    text-align: center;
+    color: yellow;
+}
+.header h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 130px;
+    background-image: linear-gradient(#642bff, #ff22e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.search-box {
+    width: 700px;
+    background: #fff;
+    margin: 50px auto 0;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+input {
+    flex: 1;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+    font-weight: bolder;
+}
+button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+button .fa-brands {
+    width: 25px;
+    color: #555;
+    font-size: 30px;
+    cursor: pointer;
+}
+/*change the color of the word in the search box*/
+::placeholder {
+    color: #777;
+}
+
+.result-box {
+    max-height: 300px;
+    overflow-y: scroll;
+    font-weight: 200;
+    color: #262a2f;
+}
+/*added the line under the search box*/
+.result-box ul {
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+}
+.result-box ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.result-box ul li:hover {
+    background: #e9f3ff;
+}
+
+.checkboxContainer {
+    display: inline-block;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-inline: 50px;
+}
+
+.checkboxContainer label {
+    font-size: 25px;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+.result-table {
+    margin: 50px auto;
+}
+.result-table-box {
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    background: gray;
+    padding: 12px 0;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 50, 0.3);
+}
+.result-table-box-cell {
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+
+.footer {
+    margin-top: 10%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer p {
+    color: #999;
+}
+.footer a {
+    text-decoration: none;
+    color: greenyellow;
+}
+.footer .fa-brands {
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#642bff, #ff22e6);
+    border-radius: 10px;
+}
